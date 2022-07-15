@@ -6,7 +6,8 @@ require("dotenv").config();
  */
 module.exports = {
   networks: {
-    hardhat,
+    hardhat: 
+    {},
     aurora: {
       url: `https://mainnet.aurora.dev`,
       accounts: [process.env.privateKey],
